@@ -10,24 +10,30 @@ body {
     font-family: 'Caveat', sans-serif;
     font-weight: 300;
     color: gray;
+    font-size: 130%;
 }
 
 h1, h2 {
     font-family: 'Dancing Script', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;    
+    color: #3a3a3a;    
 }
 
+body {
+    background-color: blanchedalmond;
+}
+
+/* Styling for the logo and nav bar */
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 300%;
     margin-left: 30px;
 }
 
 #menu {
-    font-size: 150%;
+    font-size: 175%;
     letter-spacing: 4px;
 }
 
@@ -48,4 +54,78 @@ h1, h2 {
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Styling for the main image on the index.html page */
+
+#cover-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/cover-image2.jpg) no-repeat center center;
+
+    animation-name: cover-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes cover-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+/* Styling for text beneath the cover image */
+
+#restaurant-ethos {
+    text-align: center;
+    font-size: 120%;
+}
+
+#welcome {
+    font-size: 300%;
+    margin: 20px 0;
+}
+
+#left-about {
+    /*
+    float: left;
+    width: 50%;
+    */
+    padding-top: 30px;
+    /*
+    background: url(../images/left-about-image.jpg) no-repeat center center;
+    */
+}
+
+#right-about {
+    /*
+    float: right;
+    width: 50%;
+    */
+    padding-top: 30px;
+    /*
+    background: url(../images/right-about-image.jpg)  no-repeat center center;
+    */
+}
+
+#center-about {
+    /*
+    margin: 0 auto;
+    width: 100%;
+    */
+    padding-top: 30px;
+    /*
+    background: url(../images/center-about.jpg)  no-repeat center center;
+    */
 }
