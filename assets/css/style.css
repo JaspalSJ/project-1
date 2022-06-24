@@ -56,6 +56,10 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
+p {
+    font-size: 130%;
+}
+
 /* Styling for the main image on the index.html page */
 
 #cover-outer {
@@ -93,7 +97,7 @@ body {
 }
 
 #welcome {
-    font-size: 300%;
+    font-size: 200%;
     margin: 20px 0;
 }
 
@@ -102,7 +106,7 @@ body {
     float: left;
     width: 50%;
     */
-    padding-top: 30px;
+    /* padding-top: 30px; */
     /*
     background: url(../images/left-about-image.jpg) no-repeat center center;
     */
@@ -113,7 +117,7 @@ body {
     float: right;
     width: 50%;
     */
-    padding-top: 30px;
+    /* padding-top: 30px; */
     /*
     background: url(../images/right-about-image.jpg)  no-repeat center center;
     */
@@ -124,8 +128,49 @@ body {
     margin: 0 auto;
     width: 100%;
     */
-    padding-top: 30px;
+    /* padding-top: 30px; */
     /*
     background: url(../images/center-about.jpg)  no-repeat center center;
     */
+}
+
+
+/* styling for about.html */
+
+#about-main {
+    text-align: center;
+    font-size: 120%;
+}
+
+#about-text-main {
+    font-size: 140%;
+}
+
+/* Styling for the main image on the about.html page */
+
+#about-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#about-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/left-about-image.jpg) no-repeat center center;
+
+    animation-name: about-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes about-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
