@@ -188,3 +188,10 @@ p {
 #photos > img {
     width: 100%;
 }
+
+/* Styling for contact-us.html */
+
+#contact-us-main {
+    text-align: center;
+    padding-top: 100px;
+}
