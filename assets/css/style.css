@@ -174,3 +174,17 @@ p {
         transform: scale(1.1);
     }
 }
+
+
+/* Styling for gallery.html */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
