@@ -134,6 +134,22 @@ p {
     */
 }
 
+#opening-times {
+    padding: 50px;
+    font-size: 150%;
+}
+
+#opening-times-header {
+    text-align: center;
+}
+
+#opening-times div {
+    float: left;
+    width: 14.2%;
+    font-size: medium;
+    text-align: center;
+}
+
 
 /* styling for about.html */
 
@@ -142,7 +158,7 @@ p {
     font-size: 120%;
 }
 
-#about-text-main {
+#about-text-header > p {
     font-size: 140%;
 }
 
@@ -191,7 +207,25 @@ p {
 
 /* Styling for contact-us.html */
 
+label {
+    display: block;
+    position: relative;
+    text-align: left;
+    width: 100px;
+    margin: auto;
+}
+
 #contact-us-main {
     text-align: center;
     padding-top: 100px;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #3a3a3a;
+}
+
+input[type=email] {
+    border: none;
+    border-bottom: 2px solid #3a3a3a;
 }
