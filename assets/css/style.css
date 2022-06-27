@@ -20,11 +20,15 @@ h1, h2 {
     color: #3a3a3a;    
 }
 
+h3 {
+    text-decoration: underline;
+}
+
 body {
     background-color: blanchedalmond;
 }
 
-/* Styling for the logo and nav bar */
+/* Styling for the logo, nav bar and footer */
 
 #logo {
     float: left;
@@ -62,6 +66,12 @@ body {
 
 p {
     font-size: 130%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
 }
 
 /* Styling for the main image on the index.html page */
@@ -201,8 +211,10 @@ p {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #photos > img {
@@ -237,15 +249,23 @@ input[type=email] {
 /* Styling for media queries */
 
 @media screen and (max-width: 1200px) {
+
+    /* Media queries for index.html */
+    
     #menu {
         width: 100%;
         margin: 0 auto;
+    }
+
+    #cover-outer {
+        height: 400px;
     }
 
     #restaurant-ethos {
         width: 65%;
         height: auto;
         margin: 0 auto;
+        padding: 0;
     }
 
     #opening-times {
@@ -253,9 +273,18 @@ input[type=email] {
         float: left;
         padding: 0;
     }
+
+    /* Media queries for about.html */
+
+    #about-outer {
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 320px) {
+
+    /* Media queries for index.html */
+
     #logo {
         font-size: 200%;
     }
@@ -264,5 +293,67 @@ input[type=email] {
         width: 100%;
         font-size: 100%;
         line-height: 20px;
+    }
+
+    #cover-outer {
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #cover-image {
+        max-width: 100%;
+    }
+
+    #restaurant-ethos {
+        font-size: 80%;
+        position: relative;
+        padding: 0;
+    }
+
+    #opening-times {
+        font-size: 100%;
+    }
+    
+    #opening-times-header {
+        text-align: center
+    }
+    
+    #opening-times > div {
+        clear: both;
+        width: 100%;
+    }
+
+    /* Media queries for about.html */
+
+    #about-outer {
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #about-image {
+        max-width: 100%;
+    }
+
+    #about-main {
+        font-size: 80%;
+        position: relative;
+        padding: 0;
+    }
+
+    /* Media queries for gallery.html */
+
+    #photos {
+        column-count: 2;
+    }
+
+    /* Media queries for contact_us.html */
+    
+    #send-a-message {
+        font-size: 80%;
+        padding-top: 30px;
     }
 }
