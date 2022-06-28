@@ -1,108 +1,80 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+The Pakavāna Website
 
-Welcome JaspalSJ,
+    The Pakavāna website is a landing page for an Indian restaurant, Pakavāna being the Punjabi word for cuisine.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+    Users of the website will be able to see some brief information about the restaurant, a gallery of food cooked at the restaurant, a page to contact the restaurant and the opening times of the restaurant on the home page and contact us page.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Features
 
-## Gitpod Reminders
+    Navigation
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+        At the top of each page, the user can navigate the site with a navigation menu, the main logo on the right leads to the home page, as does the home button. The About button leads to the About page, the Gallery button leads to the Gallery page, and the Contact Us button leads to the Contact Us page.
 
-`python3 -m http.server`
+    Home
 
-A blue button should appear to click: _Make Public_,
+        The Home page features an overhead shot of the seating area, and some text describing the restaurants aims and objectives and how they relate to the user. The Home page also features the Opening Times at the bottom.
 
-Another blue button should appear to click: _Open Browser_.
+    About
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        The About page features another overhead shot of some of the dishes served at the restaurant, and some more details about the objectives of the restaurant.
 
-A blue button should appear to click: _Make Public_,
+    Gallery
 
-Another blue button should appear to click: _Open Browser_.
+        The Gallery page features a selection of photographs from the restaurant and the kitchen, some are staged photos and some are candid photos.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    Contact Us
 
-To log into the Heroku toolbelt CLI:
+        The Contact Us page features a form that the users can use to contact the restaurant over any concerns they have. It requires the user to input a first and last name, their email address, select the nature of the message and the text area to write their concern. The selection menu currently features compliments, complaints, lost items and general feedback. Like the Home page, the Contact Us page features a section for the Opening Times at the bottom.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    Footer
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+        On each page, a footer is found fixed in the bottom left position that leads to the restaurant's Facebook, Twitter, YouTube and Instagram pages. At this time each link leads to the social media site's home page as the restaurant social media currently does not exist.
 
-------
+Testing
 
-## Release History
+    I have confirmed that the project is responsive and functions on standard screen sizes using the devtools device toolbar.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    I have confirmed that the navigation, header, footer and all text are easy to read and easy to understand.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    I have confirmed that the form works and requires an email in the email field, and the submit button works.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    Bugs and Known Issues
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+        The navigation menu will change the order and layout of its buttons when the site is viewed on smaller screens, but does not lose its functionality and clarity
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+        The footer is presently fixed in the bottom left of the screen, and should be fixed at the bottom of the page instead.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Validator testing
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    HTML
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+        No errors were found in the HTML code for the site when passing through the W3C validator
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    CSS
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+        No errors were found in the CSS code for the site when passing through the official (jigsaw) validator
+    
+    Accessibility
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+        I confirmed the colors and fonts chosen are easy to read and accessible to the user by running it through the lighthouse in devtools, there are however some performance issues with the site.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Deployment
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    The site was deployed to GitHub pages, the steps to deploy are as follows:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+        In the GitHub repository, navigate to the Settings tab
+        In the left sidebar, in the Code and Automation section, there is a page called Pages.
+        In the source drop-down menu, select the main branch and save, the page will then serve the link to the completed website.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    The link can be found here:
 
-------
+Credits
 
-## FAQ about the uptime script
+    Content
+        
+        The code for the social media links was taken from the CI Love Running Project.
 
-**Why have you added this script?**
+    Media
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+        The images on the Home, About and Gallery pages were all taken from iStock
 
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
