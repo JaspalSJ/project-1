@@ -66,7 +66,7 @@ Deployment
         In the left sidebar, in the Code and Automation section, there is a page called Pages.
         In the source drop-down menu, select the main branch and save, the page will then serve the link to the completed website.
 
-    The link can be found here:
+    The link can be found here: https://jaspalsj.github.io/project-1/
 
 Credits
 
