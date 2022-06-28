@@ -115,39 +115,6 @@ footer {
     margin: 20px 0;
 }
 
-#left-about {
-    /*
-    float: left;
-    width: 50%;
-    */
-    /* padding-top: 30px; */
-    /*
-    background: url(../images/left-about-image.jpg) no-repeat center center;
-    */
-}
-
-#right-about {
-    /*
-    float: right;
-    width: 50%;
-    */
-    /* padding-top: 30px; */
-    /*
-    background: url(../images/right-about-image.jpg)  no-repeat center center;
-    */
-}
-
-#center-about {
-    /*
-    margin: 0 auto;
-    width: 100%;
-    */
-    /* padding-top: 30px; */
-    /*
-    background: url(../images/center-about.jpg)  no-repeat center center;
-    */
-}
-
 #opening-times {
     padding: 50px;
     font-size: 150%;
@@ -281,79 +248,52 @@ input[type=email] {
     }
 }
 
-@media screen and (max-width: 320px) {
-
-    /* Media queries for index.html */
-
-    #logo {
-        font-size: 200%;
-    }
-    
+@media screen and (min-width: 548px) {
     #menu {
-        width: 100%;
-        font-size: 100%;
-        line-height: 20px;
+        font-size: 150%;
     }
-
-    #cover-outer {
-        height: 300px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-
+    
     #cover-image {
-        max-width: 100%;
+        height: 400px;
     }
 
-    #restaurant-ethos {
-        font-size: 80%;
-        position: relative;
-        padding: 0;
-    }
-
-    #opening-times {
-        font-size: 100%;
-    }
-    
-    #opening-times-header {
-        text-align: center
-    }
-    
     #opening-times > div {
         clear: both;
+        text-align: center;
         width: 100%;
-    }
-
-    /* Media queries for about.html */
-
-    #about-outer {
-        height: 300px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
     }
 
     #about-image {
-        max-width: 100%;
+        height: 400px;
     }
 
-    #about-main {
-        font-size: 80%;
-        position: relative;
-        padding: 0;
+    #photos {
+        column-count: 1;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
-    /* Media queries for gallery.html */
+    #send-a-message {
+        padding-top: 130px;
+    }
+}
 
+@media screen and (min-width: 768px) {
+    #menu {
+        font-size: 150%;
+    }
+
+    #send-a-message {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
     #photos {
         column-count: 2;
     }
 
-    /* Media queries for contact_us.html */
-    
     #send-a-message {
-        font-size: 80%;
         padding-top: 30px;
     }
 }
