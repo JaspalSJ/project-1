@@ -43,6 +43,8 @@ Testing
         The navigation menu will change the order and layout of its buttons when the site is viewed on smaller screens, but does not lose its functionality and clarity
 
         The footer is presently fixed in the bottom left of the screen, and should be fixed at the bottom of the page instead.
+        
+        There is a large gap between the images and the main text on the Home page and the About page, when viewed on a desktop screen.
 
 Validator testing
 
