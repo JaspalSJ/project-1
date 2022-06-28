@@ -9,26 +9,33 @@ Features
     Navigation
 
         At the top of each page, the user can navigate the site with a navigation menu, the main logo on the right leads to the home page, as does the home button. The About button leads to the About page, the Gallery button leads to the Gallery page, and the Contact Us button leads to the Contact Us page.
+        ![LogoNavbar](https://user-images.githubusercontent.com/104012455/176245356-ec6a318a-756e-4a4c-9f8a-ca4ed07e87a6.png)
 
     Home
 
         The Home page features an overhead shot of the seating area, and some text describing the restaurants aims and objectives and how they relate to the user. The Home page also features the Opening Times at the bottom.
+        ![Home html](https://user-images.githubusercontent.com/104012455/176245415-09937463-ed1f-4d1b-aa96-ae014012af09.png)
 
     About
 
         The About page features another overhead shot of some of the dishes served at the restaurant, and some more details about the objectives of the restaurant.
+        ![About html](https://user-images.githubusercontent.com/104012455/176245450-7c05b095-1d31-47b1-a5a9-c424efc77e8b.png)
+        
 
     Gallery
 
         The Gallery page features a selection of photographs from the restaurant and the kitchen, some are staged photos and some are candid photos.
+        ![Gallery html](https://user-images.githubusercontent.com/104012455/176245496-f4eb700b-2a6b-4e49-9f3c-582c35e643ec.png)
 
     Contact Us
 
         The Contact Us page features a form that the users can use to contact the restaurant over any concerns they have. It requires the user to input a first and last name, their email address, select the nature of the message and the text area to write their concern. The selection menu currently features compliments, complaints, lost items and general feedback. Like the Home page, the Contact Us page features a section for the Opening Times at the bottom.
+        f![Contact html](https://user-images.githubusercontent.com/104012455/176245563-2a1369c7-44a4-4994-8b94-27ab70fb6151.png)
 
     Footer
 
         On each page, a footer is found fixed in the bottom left position that leads to the restaurant's Facebook, Twitter, YouTube and Instagram pages. At this time each link leads to the social media site's home page as the restaurant social media currently does not exist.
+        ![Footer](https://user-images.githubusercontent.com/104012455/176245635-64377a93-e1d4-4545-bb75-7e7c78eb7805.png)
 
 Testing
 
